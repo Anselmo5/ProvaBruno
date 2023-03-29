@@ -1,7 +1,8 @@
 class filho extends pai{
-    constructor(nome,idade,aniversario,ano){
+    constructor(nome,idade,aniversario,ano,familiar){
         super(nome,idade,aniversario)
         this.ano = ano
+        this.familiar = familiar
     }
 
     filhonome(){
