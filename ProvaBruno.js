@@ -1,8 +1,9 @@
 class pai{
-    constructor(nome,idade,aniversario){
+    constructor(nome,idade,aniversario,crie){
     this.nome = nome
     this.idade = idade
     this.aniversario = aniversario
+    this.crie = crie
     } 
  
     painome(){
@@ -13,3 +14,4 @@ class pai{
         console.log("essa e minha idade "+this.idade);
     }
 }
+
